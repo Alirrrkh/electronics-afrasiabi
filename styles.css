@@ -1,0 +1,40 @@
+body{
+    background: rgb(31,122,140);
+    background: linear-gradient(90deg, rgba(31,122,140,0.3200630594034489) 0%, rgba(43,45,66,0.5469538157059699) 100%);
+}
+.carousel-control{
+    width:7%;
+    background: transparent !important;
+}
+.carousel-control.left:hover{
+    background: linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0) 100%) !important;
+}
+.carousel-control.right:hover{
+    background: linear-gradient(270deg, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0) 100%) !important;
+}
+.carousel-inner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner .item{
+    width: 80%;
+    min-height: 70vh;
+    font-size: 2rem;
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    /* height: 10vh; */
+    padding:2vh;
+}
+.footer>*{
+    padding: 0;
+    margin: 0;
+}

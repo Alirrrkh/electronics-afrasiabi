@@ -24,26 +24,16 @@ body{
     /* font-size: 2rem; */
     padding: 10vh 10%;
 }
-.zenner .images{
+.images{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.zenner .images img{
+.images img{
     height: auto;
     width: 40%;
     padding-top:10px;
-}
-@media screen and (max-width: 900px){
-    .zenner .images{
-        flex-direction: row !important;
-    }
-    .zenner .images img{
-        padding-right: 10px;
-        width: 27%;
-
-    }
 }
 .footer{
     position:absolute;
@@ -61,8 +51,16 @@ body{
     padding: 0;
     margin: 0;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 995px) {
     .footer{
         position: relative;
+    }
+    .images{
+        flex-direction: row !important;
+    }
+    .images img{
+        padding-right: 10px;
+        width: 27%;
+
     }
 }
